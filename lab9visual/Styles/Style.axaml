@@ -1,0 +1,17 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Style Selector="Button.gridBtn">
+    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+    <Setter Property="VerticalAlignment" Value="Stretch"/>
+    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    <Setter Property="FontSize" Value="30"/>
+    <Setter Property="IsEnabled" Value="False"/>
+  </Style>
+
+  <Style Selector="Button.gridBtn:pointerover /template/ ContentPresenter">
+    <Setter Property="Background" Value="Gray"/>
+  </Style>
+
+</Styles>
